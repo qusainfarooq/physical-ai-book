@@ -1,7 +1,7 @@
-// @ts-check
+
 import {themes as prismThemes} from 'prism-react-renderer';
 
-/** @type {import('@docusaurus/types').Config} */
+
 const config = {
   title: 'Physical AI & Humanoid Robotics',
   tagline: 'Your textbook for embodied intelligence',
@@ -11,12 +11,12 @@ const config = {
     v4: true,
   },
 
-  // Your GitHub Pages deployment info
+  
   url: 'https://qusainfarooq.github.io',
   baseUrl: '/physical-ai-book/',
 
-  organizationName: 'qusainfarooq', // your GitHub username
-  projectName: 'physical-ai-book', // your repo name
+  organizationName: 'qusainfarooq', 
+  projectName: 'physical-ai-book', 
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -33,7 +33,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
         },
-        blog: false, // 🚫 disables the blog
+        blog: false, 
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
