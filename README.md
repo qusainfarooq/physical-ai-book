@@ -31,8 +31,7 @@ Clone the repo and open the book locally:
 ```bash
 git clone https://github.com/qusainfarooq/physical-ai-book
 cd physical-ai-book
-
-
+Open the files in your browser or editor to read through the content.
 📚 Contents
 Introduction to AI
 Machine Learning Basics
